@@ -1,11 +1,11 @@
-# strapi-provider-upload-sftp
+# strapi-provider-upload-sftp-v2
 
 SFTP provider for Strapi CMS file upload.
 
 ## Installation
 
 ```
-yarn add @finnoconsult/strapi-provider-upload-sftp
+yarn add strapi-provider-upload-sftp-v2
 ```
 
 ## Config
@@ -14,7 +14,7 @@ yarn add @finnoconsult/strapi-provider-upload-sftp
 
 ```json
 {
-  "provider": "SFTP",
+  "provider": "sftp",
   "providerOptions": {
     "host": "<host>",
     "port": "<port>",
@@ -61,4 +61,4 @@ The file will be uploaded as file(2).jpg
 
 MIT License
 
-Copyright (c) 2019 Marcelo Mattos
+Copyright (c) 2020 FInno Consult
