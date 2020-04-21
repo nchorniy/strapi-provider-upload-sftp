@@ -1,0 +1,66 @@
+{
+  "name": "@finnoconsult/strapi-provider-upload-sftp",
+  "version": "3.0.0-beta.20",
+  "description": "SFTP provider for Strapi CMS file upload.",
+  "private": false,
+  "strapi": {
+    "isProvider": true
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finnoconsult/strapi-provider-upload-sftp"
+  },
+  "keywords": [
+    "sftp",
+    "strapi",
+    "provider",
+    "file upload"
+  ],
+  "author": {
+    "name": "FInnoConsult",
+    "email": "info@finnoconsult.at",
+    "url": "https://finnoconsult.at"
+  },
+  "contributors": [{
+    "name": "Márk Pap",
+    "email": "mark.pap@finnoconsult.at",
+    "url": "https://github.com/Sqveeze"
+  }, {
+    "name": "Péter Horváth",
+    "email": "peter.horvath@finnoconsult.at",
+    "url": "https://github.com/pitiboy"
+  }, {
+    "name": "Levente Máthé",
+    "email": "levente.mathe@finnoconsult.at",
+    "url": "https://github.com/leventemathefc"
+  }],
+  "bugs": {
+    "url": "https://github.com/finnoconsult/strapi-provider-upload-sftp/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/finnoconsult/strapi-provider-upload-sftp#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "jest": "^25.4.0"
+  },
+  "dependencies": {
+    "ssh2-sftp-client": "^2.5.0"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles --forceExit --setupFiles dotenv/config",
+    "test:watch": "jest --detectOpenHandles --forceExit --setupFiles dotenv/config --watch"
+  },
+  "jest": {
+    "automock": true
+  }
+}
