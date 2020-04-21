@@ -1,6 +1,6 @@
 {
-  "name": "@finnoconsult/strapi-provider-upload-sftp",
-  "version": "3.0.0-beta.20",
+  "name": "strapi-provider-upload-sftp-v2",
+  "version": "1.0.2",
   "description": "SFTP provider for Strapi CMS file upload.",
   "private": false,
   "strapi": {
@@ -21,7 +21,7 @@
     "file upload"
   ],
   "author": {
-    "name": "FInnoConsult",
+    "name": "FInno Consult",
     "email": "info@finnoconsult.at",
     "url": "https://finnoconsult.at"
   },
