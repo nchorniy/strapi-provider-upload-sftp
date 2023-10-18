@@ -1,11 +1,11 @@
-# strapi-provider-upload-sftp-v2
+# strapi-provider-upload-sftp-v3
 
 SFTP provider for Strapi CMS file upload.
 
 ## Installation
 
 ```
-yarn add strapi-provider-upload-sftp-v2
+yarn add strapi-provider-upload-sftp-v3
 ```
 
 ## Config
