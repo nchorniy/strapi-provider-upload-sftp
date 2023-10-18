@@ -1,7 +1,7 @@
 {
-  "name": "strapi-provider-upload-sftp-v2",
-  "version": "1.0.2",
-  "description": "SFTP provider for Strapi CMS file upload.",
+  "name": "strapi-provider-upload-sftp-v3",
+  "version": "1.0.6",
+  "description": "SFTP provider for Strapi CMS file upload - added support of Node 18",
   "private": false,
   "strapi": {
     "isProvider": true
@@ -12,7 +12,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finnoconsult/strapi-provider-upload-sftp"
+    "url": "git+https://github.com/nchorniy/strapi-provider-upload-sftp"
   },
   "keywords": [
     "sftp",
@@ -20,33 +20,11 @@
     "provider",
     "file upload"
   ],
-  "author": {
-    "name": "FInno Consult",
-    "email": "info@finnoconsult.at",
-    "url": "https://finnoconsult.at"
-  },
-  "contributors": [
-    {
-      "name": "Márk Pap",
-      "email": "mark.pap@finnoconsult.at",
-      "url": "https://github.com/Sqveeze"
-    },
-    {
-      "name": "Péter Horváth",
-      "email": "peter.horvath@finnoconsult.at",
-      "url": "https://github.com/pitiboy"
-    },
-    {
-      "name": "Levente Máthé",
-      "email": "levente.mathe@finnoconsult.at",
-      "url": "https://github.com/leventemathefc"
-    }
-  ],
   "bugs": {
-    "url": "https://github.com/finnoconsult/strapi-provider-upload-sftp/issues"
+    "url": "https://github.com/nchorniy/strapi-provider-upload-sftp/issues"
   },
   "license": "MIT",
-  "homepage": "https://github.com/finnoconsult/strapi-provider-upload-sftp#readme",
+  "homepage": "https://github.com/nchorniy/strapi-provider-upload-sftp#readme",
   "devDependencies": {
     "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
